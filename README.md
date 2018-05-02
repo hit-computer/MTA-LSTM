@@ -3,13 +3,11 @@ We focus on essay generation, which is a challenging task that generates a parag
 
 The code in this repository is written in Python 2.7/TensorFlow 1.4.0. And if you use other versions of Python or TensorFlow, you should modify some code. 
 
-We need text-word_set pairs to train MTA-LSTM model, but to the best of our knowledge, there is no public large-scale dataset. Therefore, we can only use the public small-scale data to test this model. We have found a news article dataset annotated using AMT(More details about the corpus can be found in [the paper](http://www.cs.cmu.edu/~lmarujo/publications/lmarujo_LREC_2012.pdf))
-
-
 ## DataSet
 
-Composition: https://pan.baidu.com/s/1_JPh5-g2rry2QmbjQ3pZ6w
-Zhihu: https://pan.baidu.com/s/1eC4gb_We33kr-ZbHn3KdIA
+Composition DataSet: [Download](https://pan.baidu.com/s/1_JPh5-g2rry2QmbjQ3pZ6w)
+
+Zhihu Dataser: [Download](https://pan.baidu.com/s/1eC4gb_We33kr-ZbHn3KdIA)
 
 ## Usage
 
