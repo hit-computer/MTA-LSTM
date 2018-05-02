@@ -13,7 +13,7 @@ Zhihu Dataser: [Download](https://pan.baidu.com/s/1eC4gb_We33kr-ZbHn3KdIA)
 
 ### Data
 
-In `Data/` respository, you need to prepare two files `TrainingData.txt` and `vec10.txt`(word embedding trained by word2vec), which is created from text dataset mentioned above.
+In `Data/` respository, you need to prepare two files `TrainingData.txt` and `vec.txt`(word embedding trained by word2vec), which is created from text dataset mentioned above.
 
 ### Training
 

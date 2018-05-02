@@ -2,7 +2,7 @@
 
 class Config(object):
     data_dir = 'Data/'
-    vec_file = 'Data/vec10.txt'
+    vec_file = 'Data/vec.txt'
     init_scale = 0.04
     learning_rate = 0.001
     max_grad_norm = 10 #gradient clipping

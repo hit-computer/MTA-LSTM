@@ -186,7 +186,7 @@ def main(_):
         model_saver.restore(session, gen_config.model_path+'--%d'%gen_config.save_time)
         print 'Done!'
         
-        test_word = [u'信念',u'人生',u'失落',u'心灵',u'不屈']
+        test_word = [u'体会',u'母亲',u'滴水之恩',u'母爱',u'养育之恩']
         len_of_sample = gen_config.len_of_generation
         
         _state = mtest.initial_state.eval()
