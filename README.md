@@ -3,11 +3,11 @@ We focus on essay generation, which is a challenging task that generates a parag
 
 The code in this repository is written in Python 2.7/TensorFlow 1.4.0. And if you use other versions of Python or TensorFlow, you should modify some code. 
 
-## DataSet
+## Data Set
 
-Composition DataSet: [Download](https://pan.baidu.com/s/1_JPh5-g2rry2QmbjQ3pZ6w)
+Composition Data Set: [Download](https://pan.baidu.com/s/1_JPh5-g2rry2QmbjQ3pZ6w)
 
-Zhihu Dataser: [Download](https://pan.baidu.com/s/1eC4gb_We33kr-ZbHn3KdIA)
+Zhihu Data Set: [Download](https://pan.baidu.com/s/1eC4gb_We33kr-ZbHn3KdIA)
 
 ## Usage
 
