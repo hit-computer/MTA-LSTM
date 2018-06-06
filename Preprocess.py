@@ -56,7 +56,7 @@ def Read_Data(config):
 print 'loading the trainingdata...'
 DATADIR = config.data_dir
 vocab, _ = Read_WordVec(config)
-#key_word_voc = Create_Keyword_Voc(config)
+
 data = Read_Data(config)
 
 word_to_idx = { ch:i for i,ch in enumerate(vocab) }
@@ -64,9 +64,6 @@ idx_to_word = { i:ch for i,ch in enumerate(vocab) }
 data_size, _vocab_size = len(data), len(vocab)
 
 print 'data has %d document, size of word vocabular: %d.' % (data_size, _vocab_size)
-
-#keyword_voc_size = len(key_word_voc)
-#keyword_to_idx = { ch:i for i,ch in enumerate(key_word_voc) }
     
 def data_iterator(trainingdata, batch_size, num_steps):
     epoch_size = len(trainingdata) // batch_size
