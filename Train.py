@@ -61,9 +61,6 @@ class Model(object):
         self._input_word = tf.reshape(self._input_word, [batch_size, -1])
         self._mask = tf.reshape(self._mask, [batch_size, -1])
         
-        # Slightly better results can be obtained with forget gate biases
-        # initialized to 1 but the hyperparameters of the model would need to be
-        # different than reported in the paper.
         LSTM_cell = tf.nn.rnn_cell.LSTMCell(size, forget_bias=0.0, state_is_tuple=False)
         if is_training and config.keep_prob < 1:
             LSTM_cell = tf.nn.rnn_cell.DropoutWrapper(
