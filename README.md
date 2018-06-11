@@ -17,7 +17,7 @@ In `Data/` respository, you need to prepare two files `TrainingData.txt` and `ve
 
 ### Training
 
-Before train the model, you should set some parameters of this model in `Config.py` file. Then, you need to run `Preprocess.py` file for creating `coverage_data` file(convert trainingdata into binary formats of TensorFlow, and more detail about this can be found in [the blog](https://indico.io/blog/tensorflow-data-inputs-part1-placeholders-protobufs-queues/)), `word_vec.pkl` file(this is word embedding) and `word_vec.pkl` file(vocabulary of text). At the same time, you should set `total_step` parameter in `Train.py` whose value is got from output of `Preprocess.py`
+Before train the model, you should set some parameters of this model in `Config.py` file. Then, you need to run `Preprocess.py` file for creating `coverage_data` file(convert trainingdata into binary formats of TensorFlow, and more detail about this can be found in [the blog](https://indico.io/blog/tensorflow-data-inputs-part1-placeholders-protobufs-queues/)), `word_vec.pkl` file(this is word embedding) and `word_voc.pkl` file(vocabulary of text). At the same time, you should set `total_step` parameter in `Train.py` whose value is got from output of `Preprocess.py`
 
 Start training the model using `Train.py`:
 
